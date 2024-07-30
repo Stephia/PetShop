@@ -44,13 +44,13 @@ INSERT INTO Pessoa VALUES
     (4, 'Dalberto', 'adalberto@yahoo.com.br', '4d4lb37t0', 'Rua Alvino Schwartz', 'Salto do Norte', 5, '89065-307'),
     (5, 'Evellyn', 'xevellynx@hotmail.com', '^0n;[Q=69w', 'Rua Dom Pedro II, 574', 'Centro', 2, '16210-970');
 
-SELECT * FROM Pessoa WHERE id = 1;
+SELECT * FROM Pessoa WHERE id_p = 1;
 
 INSERT INTO Animal VALUES
     (1, 'Alfredo', 'Canis lupus familiaris', 'Labrador Retriever', '2022-05-08', 'Não', 4),
     (2, 'Furacão', 'Mus musculus', 'Camundongo', '2024-07-01', 'Sim', 2),
     (3, 'Azeitona', 'Psittacidae', 'Papagaio-dos-garbes', '2023-10-28', 'Não', 5),
     (4, 'Mushu', 'Lagomorpha', 'Coelho Gigante Flemish', '2024-11-23', 'Sim', 3),
-    (5, 'Duo', 'Strigiformes', 'Mocho-diabo', '2020-01-01', 'Não', 1),
+    (5, 'Duo', 'Strigiformes', 'Mocho-diabo', '2020-01-01', 'Não', 1);
 
-UPDATE Cidade SET nome = 'Bauru' WHERE id = 4;
+UPDATE Cidade SET nome = 'Bauru' WHERE id_c = 4;
