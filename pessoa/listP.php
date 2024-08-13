@@ -38,14 +38,14 @@
                 echo "<td>".$row['nomecidade']."</td>";
                 echo "<td>".$row['estado']."</td>";
                 echo "<td>".$row['cep']."</td>";
-                echo "<td><a href='alteraUs.php?id=".$row['id_p']."'>Alterar?</a></td>";
-                echo "<td><a href='deletaUs.php?id=".$row['id_p']."'>Deletar?</a></td>";
+                echo "<td><a href='altP.php?id=".$row['id_p']."'>Alterar?</a></td>";
+                echo "<td><a href='delP.php?id=".$row['id_p']."'>Deletar?</a></td>";
                 echo "</tr>";
             }
         ?>
     </table>
     <div>
-        <button type="submit"><a href="cadP.html">Cadastrar Nova Pessoa</a></button>
+        <button type="submit"><a href="cadP.php">Cadastrar Nova Pessoa</a></button>
     </div>
     <div>
         <button type="submit"><a href="../index.html">Voltar</a></button>
