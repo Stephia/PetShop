@@ -41,7 +41,7 @@
         ?>
     </div>
     <div>
-        <button type="submit"><a href="../cadP.html">Voltar</a></button>
+        <button type="submit"><a href="../cadP.php">Voltar</a></button>
     </div>
     <div>
         <button type="submit"><a href="../index.html">Voltar Início</a></button>

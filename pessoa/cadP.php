@@ -51,7 +51,7 @@
             <button type="submit">Cadastrar</button>
         </form>
         <div>
-        <button type="submit"><a href="../index.html">Voltar</a></button>
+        <a href="../index.html">Voltar</a>
     </div>
 </body>
 </html>
