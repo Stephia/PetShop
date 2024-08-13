@@ -48,10 +48,10 @@ INSERT INTO Pessoa VALUES
 SELECT * FROM Pessoa WHERE id_p = 1;
 
 INSERT INTO Animal VALUES
-    (1, 'Alfredo', 'Canis lupus familiaris', 'Labrador Retriever', '2022-05-08', 'Não', 4),
-    (2, 'Furacão', 'Mus musculus', 'Camundongo', '2024-07-01', 'Sim', 2),
-    (3, 'Azeitona', 'Psittacidae', 'Papagaio-dos-garbes', '2023-10-28', 'Não', 5),
-    (4, 'Mushu', 'Lagomorpha', 'Coelho Gigante Flemish', '2024-11-23', 'Sim', 3),
-    (5, 'Duo', 'Strigiformes', 'Mocho-diabo', '2020-01-01', 'Não', 1);
+    (1, 'Alfredo', 'Canis lupus familiaris', 'Labrador Retriever', '2022-05-08', '20240813-111410.png', 'Não', 4),
+    (2, 'Furacão', 'Mus musculus', 'Camundongo', '2024-07-01', '20240813-111937.jpg', 'Sim', 2),
+    (3, 'Azeitona', 'Psittacidae', 'Papagaio-dos-garbes', '2023-10-28', '20240813-112140.jpg', 'Não', 5),
+    (4, 'Mushu', 'Lagomorpha', 'Coelho Gigante Flemish', '2024-11-23', '20240813-112206.jpg', 'Sim', 3),
+    (5, 'Duo', 'Strigiformes', 'Mocho-diabo', '2020-01-01', '20240813-112536.jpg', 'Não', 1);
 
 UPDATE Cidade SET nome = 'Bauru' WHERE id_c = 4;
